@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Task from './components/Task'
+import TasksList from './components/TaskList';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       </div>
       <div className='tasks-list-main'>
         <h1>My tasks</h1>
-        <Task text='Aprender React'/>
+        <TasksList />
       </div>
     </div>
   );
